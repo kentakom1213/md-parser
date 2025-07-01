@@ -2,7 +2,7 @@ mod block;
 mod codeblock;
 mod document;
 mod heading;
-mod inline;
+pub mod inline;
 mod mathblock;
 mod paragraph;
 

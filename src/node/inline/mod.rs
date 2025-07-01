@@ -6,11 +6,11 @@ mod inlinemath;
 mod link;
 mod plaintext;
 
-use emph::EmphNode;
-use inlinecode::InlineCodeNode;
-use inlinemath::InlineMathNode;
-use link::LinkNode;
-use plaintext::PlainTextNode;
+pub use emph::EmphNode;
+pub use inlinecode::InlineCodeNode;
+pub use inlinemath::InlineMathNode;
+pub use link::LinkNode;
+pub use plaintext::PlainTextNode;
 
 #[derive(Debug)]
 pub enum InlineNode {
