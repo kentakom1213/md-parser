@@ -1,9 +1,15 @@
 mod block;
-mod code;
+mod codeblock;
 mod document;
-mod emph;
 mod heading;
 mod inline;
-mod link;
-mod math;
+mod mathblock;
 mod paragraph;
+
+pub use block::BlockNode;
+pub use codeblock::CodeBlockNode;
+pub use document::DocumentNode;
+pub use heading::HeadingNode;
+pub use inline::InlineNode;
+pub use mathblock::MathBlockNode;
+pub use paragraph::ParagraphNode;

@@ -1,3 +1,5 @@
+use md_parser::node::DocumentNode;
+
 fn main() {
-    println!("Hello, world!");
+    let doc: DocumentNode = DocumentNode { blocks: vec![] };
 }
