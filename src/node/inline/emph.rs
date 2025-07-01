@@ -1,5 +1,7 @@
 //! 強調を表すノード
 
+use super::PlainTextNode;
+
 #[derive(Debug)]
 pub enum EmphNode {
     Italic(ItalicNode),
@@ -8,10 +10,10 @@ pub enum EmphNode {
 
 #[derive(Debug)]
 pub struct ItalicNode {
-    pub contents: String,
+    pub contents: PlainTextNode,
 }
 
 #[derive(Debug)]
 pub struct BoldNode {
-    pub contents: String,
+    pub contents: PlainTextNode,
 }
