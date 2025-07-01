@@ -2,6 +2,7 @@
 
 use super::{CodeBlockNode, HeadingNode, MathBlockNode, ParagraphNode};
 
+#[derive(Debug)]
 pub enum BlockNode {
     Breaking,
     Heading(HeadingNode),

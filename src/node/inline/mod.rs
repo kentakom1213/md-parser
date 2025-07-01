@@ -12,6 +12,7 @@ use inlinemath::InlineMathNode;
 use link::LinkNode;
 use plaintext::PlainTextNode;
 
+#[derive(Debug)]
 pub enum InlineNode {
     Emph(EmphNode),
     InlineMath(InlineMathNode),
