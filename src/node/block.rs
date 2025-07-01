@@ -7,6 +7,6 @@ pub enum BlockNode {
     Breaking,
     Heading(HeadingNode),
     CodeBlock(CodeBlockNode),
-    MathBlockNode(MathBlockNode),
-    ParagraphNode(ParagraphNode),
+    MathBlock(MathBlockNode),
+    Paragraph(ParagraphNode),
 }

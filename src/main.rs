@@ -10,7 +10,7 @@ fn main() {
                 level: 1,
                 contents: "こんにちは".to_string(),
             }),
-            BlockNode::ParagraphNode(ParagraphNode {
+            BlockNode::Paragraph(ParagraphNode {
                 contents: vec![
                     InlineNode::PlainText(PlainTextNode {
                         contents: "こんにちは．これがMarkDownの構文木です．".to_string(),
