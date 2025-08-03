@@ -1,4 +1,4 @@
-//! インラインのコードを表すノード
+//! インラインのコード
 
 #[derive(Debug)]
 pub struct InlineCodeNode {

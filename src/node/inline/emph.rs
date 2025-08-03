@@ -1,4 +1,4 @@
-//! 強調を表すノード
+//! 強調
 
 use super::PlainTextNode;
 

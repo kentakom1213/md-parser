@@ -1,4 +1,4 @@
-//! インライン数式を表すノード
+//! インライン数式
 
 #[derive(Debug)]
 pub struct InlineMathNode {

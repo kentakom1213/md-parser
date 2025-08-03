@@ -1,4 +1,4 @@
-//! 数式ブロックを表すノード
+//! 数式ブロック
 
 #[derive(Debug)]
 pub struct MathBlockNode {

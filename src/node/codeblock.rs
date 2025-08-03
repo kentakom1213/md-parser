@@ -1,4 +1,4 @@
-//! コードブロックを表すノード
+//! コードブロック
 
 #[derive(Debug)]
 pub enum CodeLanguage {

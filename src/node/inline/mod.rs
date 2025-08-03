@@ -1,4 +1,4 @@
-//! インライン要素を表すノード
+//! インライン要素
 
 mod emph;
 mod inlinecode;

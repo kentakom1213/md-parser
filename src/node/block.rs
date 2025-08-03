@@ -1,4 +1,4 @@
-//! ブロックを表すノード
+//! ブロック
 
 use super::{CodeBlockNode, HeadingNode, MathBlockNode, ParagraphNode};
 

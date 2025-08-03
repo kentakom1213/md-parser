@@ -1,4 +1,4 @@
-//! 地の文を表すノード
+//! 地の文
 
 use crate::parser::Parse;
 

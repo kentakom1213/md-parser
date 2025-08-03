@@ -1,4 +1,4 @@
-//! リンクを表すノード
+//! リンク
 
 #[derive(Debug)]
 pub struct LinkNode {

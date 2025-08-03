@@ -1,4 +1,4 @@
-//! 見出しを表すノード
+//! 見出し
 
 #[derive(Debug)]
 pub struct HeadingNode {

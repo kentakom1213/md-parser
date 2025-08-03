@@ -1,4 +1,4 @@
-//! 段落を表すノード
+//! 段落
 
 use super::InlineNode;
 
